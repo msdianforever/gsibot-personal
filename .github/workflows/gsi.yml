@@ -76,7 +76,7 @@ jobs:
          timeout-minutes: 1
          run: |
               mkdir loop
-              git clone https://github.com/yashlearnpython/gsibot-personal loop/loop
+              git clone https://github.com/techharz/gsibot-personal loop/loop
               cd loop/loop
               echo "1" >> loop.txt
               git add .
