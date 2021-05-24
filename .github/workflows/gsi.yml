@@ -1,4 +1,4 @@
-name: Shahin GSI Maker
+name: MSDian Forever GSI Maker
  
 on: push
 
@@ -23,9 +23,9 @@ jobs:
          run: |
               sudo -E apt-get -qq update
               sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev rsync flex bison ccache openjdk-8-jdk expect aria2
-              git config --global user.name "techharz"
-              git config --global user.email "techharz@gmail.com"
-              git clone --recurse-submodules https://github.com/techharz/ErfanGSIs
+              git config --global user.name "msdianforever"
+              git config --global user.email "kiranpyla.23@gmail.com"
+              git clone --recurse-submodules https://github.com/msdianforever/ErfanGSIs
               curl -sL https://git.io/file-transfer | sh
 
      
@@ -76,7 +76,7 @@ jobs:
          timeout-minutes: 1
          run: |
               mkdir loop
-              git clone https://github.com/techharz/gsibot-personal loop/loop
+              git clone https://github.com/msdianforever/gsibot-personal loop/loop
               cd loop/loop
               echo "1" >> loop.txt
               git add .
