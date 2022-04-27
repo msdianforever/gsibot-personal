@@ -4,7 +4,7 @@ on: push
 
 env:
   TYPE: build
-  TZ: Asia/Manila
+  TZ: Asia/Dhaka
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -29,7 +29,7 @@ jobs:
               curl -sL https://git.io/file-transfer | sh
 
      
-       - name: Setup Erfan Tools
+       - name: Setup ErfanGSI Tools
          continue-on-error: true
          timeout-minutes: 10
          run: |
