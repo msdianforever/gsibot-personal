@@ -7,7 +7,7 @@ env:
   TZ: Asia/Dhaka
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     timeout-minutes: 525600
 
     steps:
